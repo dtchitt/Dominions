@@ -9,7 +9,7 @@ export class Game {
 	private static instance: Game;
 
 	constructor() {
-		if (!BlzLoadTOCFile("war3mapimported\\tower-defense.toc")) {
+		if (!BlzLoadTOCFile("war3mapimported\\customtoc.toc")) {
 			print("Failed to load TOC file!");
 		};
 
@@ -56,6 +56,7 @@ export class Game {
 					new HumanPlayer(player);
 				}
 
+				//ClearTextMessages();
 				Round.getInstance().newRound();
 			} catch (error) {
 				print(error)

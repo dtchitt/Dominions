@@ -3,7 +3,6 @@ import { GamePlayer } from "app/players/game-player";
 import { HumanPlayer } from "app/players/human-player";
 import { PLAYER_COLOR_CODES } from "app/resources/colordata";
 import { HexColors } from "app/resources/hexColors";
-import { Titles } from "app/resources/titles";
 
 export class Scoreboard {
     private board: multiboard

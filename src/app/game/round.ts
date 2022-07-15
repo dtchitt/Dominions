@@ -1,6 +1,5 @@
 import { GamePlayer } from "app/players/game-player";
-import { sbtesting } from "app/scoreboard/sbtesting";
-import { Scoreboard } from "app/scoreboard/scoreboard";
+import { Scoreboard } from "app/game/scoreboard";
 import { GameTimer } from "./game-timer";
 
 interface RoundData {
@@ -30,14 +29,14 @@ export const PHASE = {
 export class Round {
 	private static instance: Round;
 	private count: number;
-	private scoreBoard: sbtesting;
+	private scoreBoard: Scoreboard;
 
 	private data: Map<number, RoundData>;
 
 	constructor() {
 		this.count = 0;
 		this.data = new Map<number, RoundData>();
-		this.scoreBoard = new sbtesting();
+		this.scoreBoard = new Scoreboard();
 		GameTimer.getInstance();
 	}
 
