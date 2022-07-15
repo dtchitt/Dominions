@@ -1,0 +1,625 @@
+﻿STRING 1
+{
+Dominions Reborn
+}
+
+STRING 8
+{
+Player 1
+}
+
+STRING 13
+{
+Player 2
+}
+
+STRING 14
+{
+Player 3
+}
+
+STRING 15
+{
+Player 4
+}
+
+STRING 16
+{
+Player 5
+}
+
+STRING 17
+{
+Player 6
+}
+
+STRING 18
+{
+Player 7
+}
+
+STRING 19
+{
+Player 8
+}
+
+STRING 20
+{
+Player 9
+}
+
+STRING 21
+{
+Player 10
+}
+
+STRING 22
+{
+Player 11
+}
+
+STRING 23
+{
+Player 12
+}
+
+STRING 706
+{
+ 
+}
+
+STRING 1846
+{
+ 
+}
+
+STRING 3246
+{
+Hero must be alive
+}
+
+STRING 3247
+{
+Hero must be alive
+}
+
+STRING 6073
+{
+ - Each point increases damage by |cff8080ff2|r.
+}
+
+STRING 6076
+{
+ - Each point increases hit points by |cff8080ff24|r.
+}
+
+STRING 6077
+{
+ - Each point increases mana by |cff8080ff30|r.
+}
+
+STRING 6078
+{
+ - Each point increases mana regeneration by |cff8080ff5%|r.
+}
+
+STRING 6088
+{
+ - Each point increases attack speed by |cff8080ff4%%|r.
+}
+
+STRING 6089
+{
+ - Each point increases attack speed by |cff8080ff4%%|r.
+}
+
+STRING 6130
+{
+|c00ff80ff  65% vs Spells
+|r|c0064ff00  50% vs Piercing
+  50% vs Siege|r
+|c00ffbf00100% vs Normal
+100% vs Hero
+100% vs Magic|r
+}
+
+STRING 6137
+{
+|c00ff80ff  65% vs Spells
+|r|c0064ff00  50% vs Piercing
+  50% vs Siege|r
+|c00ffbf00100% vs Normal
+100% vs Hero
+100% vs Magic|r
+}
+
+STRING 6142
+{
+|c00ff80ff  65% vs Spells
+|r|c0064ff00  50% vs Piercing
+  50% vs Siege|r
+|c00ffbf00100% vs Normal
+100% vs Hero
+100% vs Magic|r
+}
+
+STRING 6152
+{
+|c00ffbf00100% vs All|r
+}
+
+STRING 6153
+{
+|c0064ff00150% vs Fortified
+150% vs Unarmored|r
+|c00ffbf00100% vs Heavy
+100% vs Light
+|r|c00ff3c00  50% vs Medium
+  50% vs Hero|r
+}
+
+STRING 6159
+{
+|c00ffbf00100% vs All|r
+}
+
+STRING 6160
+{
+|c0064ff00150% vs Fortified
+150% vs Unarmored|r
+|c00ffbf00100% vs Heavy
+100% vs Light
+|r|c00ff3c00  50% vs Medium
+  50% vs Hero|r
+}
+
+STRING 6166
+{
+|c00ffbf00100% vs All|r
+}
+
+STRING 6167
+{
+|c0064ff00150% vs Fortified
+150% vs Unarmored|r
+|c00ffbf00100% vs Heavy
+100% vs Light
+|r|c00ff3c00  50% vs Medium
+  50% vs Hero|r
+}
+
+STRING 6183
+{
+|c0064ff00200% vs Light
+150%  vs Unarmored|r
+|c00ffbf00100%  vs Heavy
+|r|c00ff8040  75%  vs Medium|r
+|c00ff3c00  50%  vs Hero
+  35%  vs Fortified|r
+}
+
+STRING 6184
+{
+|c0064ff00200% vs Light
+150%  vs Unarmored|r
+|c00ffbf00100%  vs Heavy
+|r|c00ff8040  75%  vs Medium|r
+|c00ff3c00  50%  vs Hero
+  35%  vs Fortified|r
+}
+
+STRING 6185
+{
+|c0064ff00200% vs Light
+150%  vs Unarmored|r
+|c00ffbf00100%  vs Heavy
+|r|c00ff8040  75%  vs Medium|r
+|c00ff3c00  50%  vs Hero
+  35%  vs Fortified|r
+}
+
+STRING 6643
+{
+|c0064ff00  25% vs Hero
+  35% vs Piercing
+  35% vs Magic
+  50% vs Normal|r
+|c00ff3c00150%  vs Siege|r
+}
+
+STRING 6649
+{
+|c0064ff00  25% vs Hero
+  35% vs Piercing
+  35% vs Magic
+  50% vs Normal|r
+|c00ff3c00150%  vs Siege|r
+}
+
+STRING 6653
+{
+|c0064ff00  25% vs Hero
+  35% vs Piercing
+  35% vs Magic
+  50% vs Normal|r
+|c00ff3c00150%  vs Siege|r
+}
+
+STRING 6658
+{
+|r|c0064ff00125% vs Light
+125% vs Medium
+125% vs Heavy
+125% vs Unarmored|r|c00ffbf00
+100% vs Hero
+|c00ff3c00  25% vs Fortified
+}
+
+STRING 6659
+{
+|c0064ff00150% vs Medium|r
+|c00ffbf00100% vs Hero
+|c00ff8040  75% vs Light
+  75% vs Unarmored
+  75% vs Heavy
+|c00ff3c00  50% vs Fortified|r
+}
+
+STRING 6660
+{
+|c0064ff00150% vs Medium|r
+|c00ffbf00100% vs Hero
+|c00ff8040  75% vs Light
+  75% vs Unarmored
+  75% vs Heavy
+|c00ff3c00  50% vs Fortified|r
+}
+
+STRING 6662
+{
+|r|c0064ff00125% vs Light
+125% vs Medium
+125% vs Heavy
+125% vs Unarmored|r|c00ffbf00
+100% vs Hero
+|c00ff3c00  25% vs Fortified
+}
+
+STRING 6663
+{
+|c0064ff00150% vs Medium|r
+|c00ffbf00100% vs Hero
+|c00ff8040  75% vs Light
+  75% vs Unarmored
+  75% vs Heavy
+|c00ff3c00  50% vs Fortified|r
+}
+
+STRING 6664
+{
+|c0064ff00150% vs Medium|r
+|c00ffbf00100% vs Hero
+|c00ff8040  75% vs Light
+  75% vs Unarmored
+  75% vs Heavy
+|c00ff3c00  50% vs Fortified|r
+}
+
+STRING 6666
+{
+|r|c0064ff00125% vs Light
+125% vs Medium
+125% vs Heavy
+125% vs Unarmored|r|c00ffbf00
+100% vs Hero
+|c00ff3c00  25% vs Fortified
+}
+
+STRING 6667
+{
+|c0064ff00150% vs Medium|r
+|c00ffbf00100% vs Hero
+|c00ff8040  75% vs Light
+  75% vs Unarmored
+  75% vs Heavy
+|c00ff3c00  50% vs Fortified|r
+}
+
+STRING 6668
+{
+|c0064ff00150% vs Medium|r
+|c00ffbf00100% vs Hero
+|c00ff8040  75% vs Light
+  75% vs Unarmored
+  75% vs Heavy
+|c00ff3c00  50% vs Fortified|r
+}
+
+STRING 6670
+{
+|r|c0064ff00  75%  vs Normal|r
+|c00ffbf00100%  vs Siege
+100%  vs Piercing
+|c00ff3c00125%   vs Hero
+200% vs Magic|r
+}
+
+STRING 6675
+{
+|r|c0064ff00  75%  vs Normal|r
+|c00ffbf00100%  vs Siege
+100%  vs Piercing
+|c00ff3c00125%   vs Hero
+200% vs Magic|r
+}
+
+STRING 6678
+{
+|r|c0064ff00  75%  vs Normal|r
+|c00ffbf00100%  vs Siege
+100%  vs Piercing
+|c00ff3c00125%   vs Hero
+200% vs Magic|r
+}
+
+STRING 6682
+{
+|c0064ff00200% vs Heavy|r
+|c0064ff00125%   vs Light|r
+|c00ffbf00100%  vs Hero
+|c00ff8040  75%  vs Medium
+|c00ff3c00  65%  vs Unarmored
+  35%  vs Fortified|r
+}
+
+STRING 6683
+{
+|c0064ff00200% vs Heavy|r
+|c0064ff00125%   vs Light|r
+|c00ffbf00100%  vs Hero
+|c00ff8040  75%  vs Medium
+|c00ff3c00  65%  vs Unarmored
+  35%  vs Fortified|r
+}
+
+STRING 6684
+{
+|c0064ff00200% vs Heavy|r
+|c0064ff00125%   vs Light|r
+|c00ffbf00100%  vs Hero
+|c00ff8040  75%  vs Medium
+|c00ff3c00  65%  vs Unarmored
+  35%  vs Fortified|r
+}
+
+STRING 6685
+{
+|c0064ff00  50% vs Siege
+  75%  vs Piercing
+  75%  vs Magic|r
+|c00ff8040125%   vs Hero
+|r|c00ff3c00150%  vs Normal|r
+}
+
+STRING 6686
+{
+|c0064ff00  50% vs Siege
+  75%  vs Piercing
+  75%  vs Magic|r
+|c00ff8040125%   vs Hero
+|r|c00ff3c00150%  vs Normal|r
+}
+
+STRING 6687
+{
+|r|c0064ff00  75%  vs Normal
+|c00ffbf00100%  vs Siege
+|r|c00ff8040125%   vs Magic
+125%   vs Hero
+|c00ff3c00200% vs Piercing
+}
+
+STRING 6688
+{
+|c00ff80ff  65%  vs Spells
+|r|c0064ff00  65%  vs Magic
+  75%  vs Normal
+|c00ffbf00100%  vs Hero
+|r|c00ff3c00150%  vs Siege
+150%  vs Piercing|r
+}
+
+STRING 6689
+{
+|r|c0064ff00  75%  vs Normal
+|c00ffbf00100%  vs Siege
+|r|c00ff8040125%   vs Magic
+125%   vs Hero
+|c00ff3c00200% vs Piercing
+}
+
+STRING 6690
+{
+|c00ff80ff  65%  vs Spells
+|r|c0064ff00  65%  vs Magic
+  75%  vs Normal
+|c00ffbf00100%  vs Hero
+|r|c00ff3c00150%  vs Siege
+150%  vs Piercing|r
+}
+
+STRING 6691
+{
+|c0064ff00  50% vs Siege
+  75%  vs Piercing
+  75%  vs Magic|r
+|c00ff8040125%   vs Hero
+|r|c00ff3c00150%  vs Normal|r
+}
+
+STRING 6692
+{
+|r|c0064ff00  75%  vs Normal
+|c00ffbf00100%  vs Siege
+|r|c00ff8040125%   vs Magic
+125%   vs Hero
+|c00ff3c00200% vs Piercing
+}
+
+STRING 6693
+{
+|c00ff80ff  65%  vs Spells
+|r|c0064ff00  65%  vs Magic
+  75%  vs Normal
+|c00ffbf00100%  vs Hero
+|r|c00ff3c00150%  vs Siege
+150%  vs Piercing|r
+}
+
+STRING 6696
+{
+Info
+}
+
+STRING 6697
+{
+About Map
+}
+
+STRING 6698
+{
+How to play
+}
+
+STRING 6699
+{
+Info (|Cfffed312F9|R)
+}
+
+STRING 6700
+{
+Gold is obtained every night or when killing enemies or selling items.
+}
+
+STRING 6701
+{
+Lumber serves no purpose.
+}
+
+STRING 6702
+{
+Maximum food can be increased in your castle.
+}
+
+STRING 7057
+{
+Increased mana pool, hit points and improved spells.
+}
+
+STRING 7058
+{
+Players
+}
+
+STRING 7059
+{
+Player 13
+}
+
+STRING 7060
+{
+Player 14
+}
+
+STRING 7061
+{
+Player 15
+}
+
+STRING 7062
+{
+Player 16
+}
+
+STRING 7063
+{
+Player 17
+}
+
+STRING 7064
+{
+Player 18
+}
+
+STRING 7065
+{
+Player 19
+}
+
+STRING 7066
+{
+Player 20
+}
+
+STRING 7067
+{
+Player 21
+}
+
+STRING 7068
+{
+Player 22
+}
+
+STRING 7069
+{
+Player 23
+}
+
+STRING 7070
+{
+Player 24
+}
+
+STRING 7071
+// Units: b000 (Castle ), Name (Name)
+{
+Castle 
+}
+
+STRING 7072
+// Units: b001 (Barracks), EditorSuffix (Name - Editor Suffix)
+{
+(Human)
+}
+
+STRING 7073
+// Units: b002 (Barracks), EditorSuffix (Name - Editor Suffix)
+{
+(Orc)
+}
+
+STRING 7074
+// Units: b005 (Mercenary Camp), EditorSuffix (Name - Editor Suffix)
+{
+(Basic)
+}
+
+STRING 7076
+// Units: b006 (Mercenary Camp), EditorSuffix (Name - Editor Suffix)
+{
+(Advanced)
+}
+
+STRING 7077
+// Units: b007 (Gold Mine), Name (Name)
+{
+Gold Mine
+}
+
+STRING 7078
+// Units: b007 (Gold Mine), Tip (Tooltip - Basic)
+{
+Gold Mine
+}
+

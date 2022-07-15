@@ -1,0 +1,10 @@
+export const UID = {
+	CASTLE: FourCC('b000'),
+	HUMAN_BARRACKS: FourCC('b001'),
+	ORC_BARRACKS: FourCC('b002'),
+	UNDEAD_BARRACKS: FourCC('b003'),
+	NIGHT_ELF_BARRACKS: FourCC('b004'),
+	MERC_BARRACKS_ONE: FourCC('b005'),
+	MERC_BARRACKS_TWO: FourCC('b006'),
+	GOLD_MINE: FourCC('b007'),
+}

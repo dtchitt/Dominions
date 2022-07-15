@@ -13,12 +13,16 @@
         "../node_modules/*/lib/index",
         "../node_modules/*/index",
         "../node_modules/*/dist/index",
-        "../node_modules/*"
+        "../node_modules/*",
+        "./*"
       ]
     },
     "plugins": [
       {
-        "transform": "war3-transformer"
+        "transform": "war3-transformer",
+        "mapDir": "C:/Users/danie/Desktop/wc3-projects/Dominions/maps/dominions.w3x",
+        "entryFile": "C:/Users/danie/Desktop/wc3-projects/Dominions/src/main.ts",
+        "outputDir": "C:/Users/danie/Desktop/wc3-projects/Dominions/dist/dominions.w3x"
       }
     ],
     "types": [

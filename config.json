@@ -1,11 +1,13 @@
 {
-  "mapFolder": "map.w3x",
-  "minifyScript": false,
-  "gameExecutable": "C:\\Program Files\\Warcraft III\\_retail_\\x86_64\\Warcraft III.exe",
-  "outputFolder": "./dist/bin",
-  "launchArgs": [
-    "-launch",
-    "-windowmode",
-    "windowed"
-  ]
+	"fileName": "Dominions",
+	"version": "0.01",
+	"mapFolder": "dominions.w3x",
+	"minifyScript": false,
+	"gameExecutable": "C:\\Program Files (x86)\\Warcraft III\\_retail_\\x86_64\\Warcraft III.exe",
+	"outputFolder": "C:\\Users\\danie\\Documents\\Warcraft III\\Maps\\Download\\(0) Dominions Testing",
+	"launchArgs": [
+		"-launch",
+		"-windowmode",
+		"windowed"
+	]
 }
