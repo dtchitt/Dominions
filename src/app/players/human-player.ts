@@ -136,12 +136,16 @@ export class HumanPlayer extends GamePlayer {
 		return this.vassels;
 	}
 
-	public setKing(newKing: HumanPlayer) {
+	public setKing(newKing: HumanPlayer | null) {
 		this.king = newKing;
 	}
 
 	public getKing(): HumanPlayer {
 		return this.king;
+	}
+
+	public isVassel(): boolean {
+		return (this.king == null || this.king == undefined) ? false : true;
 	}
 
 	public updateTitle() {

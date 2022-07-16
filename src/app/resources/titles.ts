@@ -1,14 +1,16 @@
 export const Titles = [
-	``,
+	`Serf`,
 	`Squire`,
 	`Knight`,
+
+	`Chief`,
 	`Lord`,
 	`Duke`,
+
 	`Baron`,
 	`King`,
-	`High King`,
+
 	`Emperor`,
-	`Emperor`,
-	`High Emperor`,
-	`High Emperor`,
+	`Tsar`,
+	`Khan`,
 ];

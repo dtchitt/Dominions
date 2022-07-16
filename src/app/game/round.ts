@@ -57,12 +57,12 @@ export class Round {
 	}
 
 	private startModeSelection() {
-		
+
 		this.startRaceSelection();
 	}
 
 	private startRaceSelection() {
-		
+
 		this.startRound();
 	}
 

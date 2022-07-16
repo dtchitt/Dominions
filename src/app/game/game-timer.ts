@@ -55,8 +55,8 @@ export class GameTimer {
 	public getElapsedTime(): string {
 		let hours: string = `${~~(this.tickCount / 3600)}`;
 		hours = parseFloat(hours) <= 9 ? hours.replace(hours, `0${hours}`) : hours;
-	    
-		let minutes: string = `0${~~(this.tickCount / 60)  % 60}`.slice(-2);
+
+		let minutes: string = `0${~~(this.tickCount / 60) % 60}`.slice(-2);
 		let seconds: string = `0${~~(this.tickCount % 3600) % 60 % 60}`.slice(-2);
 
 		return `${hours}:${minutes}:${seconds}`

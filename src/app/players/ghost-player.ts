@@ -8,7 +8,7 @@ export class GhostPlayer extends GamePlayer {
 
 	constructor(who: player) {
 		super(who);
-		
+
 		GamePlayer.ghosts.set(who, this);
 	}
 

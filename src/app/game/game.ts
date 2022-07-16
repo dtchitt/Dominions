@@ -22,7 +22,7 @@ export class Game {
 		FogEnable(true);
 		FogMaskEnable(false);
 
-		
+
 		//Triggers
 		// onPlayerLeave();
 		onUnitDeath();
