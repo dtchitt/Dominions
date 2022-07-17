@@ -66,19 +66,19 @@ export class Game {
 	}
 
 	private buildCastleRects() {
-		Round.getInstance().castleRects.push(Rect(-640.0, 3328.0, 608.0, 4352.0));
-		Round.getInstance().castleRects.push(Rect(-608.0, -4352.0, 640.0, -3328.0));
-		Round.getInstance().castleRects.push(Rect(-4448.0, -544.0, -3200.0, 480.0));
-		Round.getInstance().castleRects.push(Rect(3200.0, -544.0, 4448.0, 480.0));
-		Round.getInstance().castleRects.push(Rect(-2496.0, 3264.0, -1248.0, 4288.0));
-		Round.getInstance().castleRects.push(Rect(3136.0, 1440.0, 4384.0, 2464.0));
-		Round.getInstance().castleRects.push(Rect(1312.0, -4352.0, 2560.0, -3328.0));
-		Round.getInstance().castleRects.push(Rect(-4384.0, -2432.0, -3136.0, -1408.0));
-		Round.getInstance().castleRects.push(Rect(1280.0, 3296.0, 2528.0, 4320.0));
-		Round.getInstance().castleRects.push(Rect(3136.0, -2432.0, 4384.0, -1408.0));
-		Round.getInstance().castleRects.push(Rect(-2496.0, -4288.0, -1248.0, -3264.0));
-		Round.getInstance().castleRects.push(Rect(-4384.0, 1440.0, -3136.0, 2464.0));
+		Round.getInstance().castleRects.push(gg_rct_arenaRed)
+		Round.getInstance().castleRects.push(gg_rct_arenaGreen)
+		Round.getInstance().castleRects.push(gg_rct_arenaLightBlue)
+		Round.getInstance().castleRects.push(gg_rct_arenaPurple)
+		Round.getInstance().castleRects.push(gg_rct_arenaBrown)
+		Round.getInstance().castleRects.push(gg_rct_arenaTeal)
+		Round.getInstance().castleRects.push(gg_rct_arenaOrange)
+		Round.getInstance().castleRects.push(gg_rct_arenaGrey)
+		Round.getInstance().castleRects.push(gg_rct_arenaBlue)
+		Round.getInstance().castleRects.push(gg_rct_arenaYellow)
+		Round.getInstance().castleRects.push(gg_rct_arenaPink)
+		Round.getInstance().castleRects.push(gg_rct_arenaDarkGreen)
 
-		Round.getInstance().castleRects.reverse();
+		Round.getInstance().castleRects.reverse();//Im so lazy :P
 	}
 }
