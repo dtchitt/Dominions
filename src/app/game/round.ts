@@ -1,6 +1,8 @@
 import { GamePlayer } from "app/players/game-player";
 import { Scoreboard } from "app/game/scoreboard";
 import { GameTimer } from "./game-timer";
+import { HumanPlayer } from "app/players/human-player";
+import { ShuffleArray } from "app/libs/utils";
 
 interface RoundData {
 	playerCount: number;
@@ -30,6 +32,7 @@ export class Round {
 	private static instance: Round;
 	private count: number;
 	private scoreBoard: Scoreboard;
+	public castleRects: rect[];
 
 	private data: Map<number, RoundData>;
 
@@ -37,6 +40,7 @@ export class Round {
 		this.count = 0;
 		this.data = new Map<number, RoundData>();
 		this.scoreBoard = new Scoreboard();
+		this.castleRects = [];
 		GameTimer.getInstance();
 	}
 
@@ -62,8 +66,17 @@ export class Round {
 	}
 
 	private startRaceSelection() {
+		let players: HumanPlayer[] = [];
+		GamePlayer.getPlayers().forEach(p => {
+			players.push(p);
+		})
 
+		ShuffleArray(players);
+
+		//Place Castles
+		//Place merc camps if allowed
 		this.startRound();
+		//Place race buildings
 	}
 
 	private startRound() {

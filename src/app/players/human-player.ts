@@ -22,7 +22,7 @@ export class HumanPlayer extends GamePlayer {
 		y: number
 	}
 
-	constructor(who: player) {
+	constructor(who: player, rect: rect) {
 		super(who);
 
 		this.names = {
@@ -50,6 +50,17 @@ export class HumanPlayer extends GamePlayer {
 		}
 
 		this.vassels = [];
+
+		const cx: number = GetRectCenterX(rect);
+		print(`x ${cx}`)
+		const cy: number = GetRectCenterY(rect);
+		print(`y ${cy}`)
+
+		this.castle = {
+			unit: CreateUnit(this.player, UID.CASTLE, cx, cy, 270),
+			x: cx,
+			y: cy
+		}
 	}
 
 	public onKill(u: unit) {

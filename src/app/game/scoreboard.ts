@@ -40,7 +40,7 @@ export class Scoreboard {
 			MultiboardSetRowCount(this.board, MultiboardGetRowCount(this.board) + 1);
 			Scoreboard.setItemWidth(this.board, (longestStr.length * .60), i, 1);
 			Scoreboard.setItemWidth(this.board, 3.80, i, 2);
-			Scoreboard.setItemWidth(this.board, 3.40, i, 3);
+			Scoreboard.setItemWidth(this.board, 3.20, i, 3);
 			Scoreboard.setItemWidth(this.board, 3.30, i, 4);
 			//Scoreboard.setItemWidth(this.board, 3.80, i, 5);
 		}
@@ -49,7 +49,7 @@ export class Scoreboard {
 
 		Scoreboard.setItemValue(this.board, `${HexColors.TANGERINE}Title - Player|r`, 1, 1);
 		Scoreboard.setItemValue(this.board, `${HexColors.TANGERINE}Bounty|r`, 1, 2);
-		Scoreboard.setItemValue(this.board, `${HexColors.TANGERINE}Razed|r`, 1, 3);
+		Scoreboard.setItemValue(this.board, `${HexColors.TANGERINE}Heros|r`, 1, 3);
 		Scoreboard.setItemValue(this.board, `${HexColors.TANGERINE}Vassels|r`, 1, 4);
 		//Scoreboard.setItemValue(this.board, `${HexColors.TANGERINE}Vassels|r`, 1, 5);
 
@@ -74,8 +74,8 @@ export class Scoreboard {
 			const sColor: string = (GetLocalPlayer() == p) ? HexColors.LIGHT_BLUE : HexColors.WHITE;
 
 			Scoreboard.setItemValue(this.board, `${PLAYER_COLOR_CODES[hPlayer.getNames().colorIndex]}${hPlayer.getTitle()}|r ${hPlayer.getColoredName()}`, row, 1);
-			Scoreboard.setItemValue(this.board, `${sColor}${0}|r`, row, 2);
-			Scoreboard.setItemValue(this.board, `${sColor}${0}|r`, row, 3);
+			Scoreboard.setItemValue(this.board, `${sColor}${0}|r`, row, 2); //TODO track data
+			Scoreboard.setItemValue(this.board, `${sColor}${0}|r`, row, 3); //TODO track data
 			Scoreboard.setItemValue(this.board, `${sColor}${hPlayer.getVassles().length}|r`, row, 4);
 			//Scoreboard.setItemValue(this.board, `${sColor}${hPlayer.getVassles().length}`, row, 5);
 			row++
