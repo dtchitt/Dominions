@@ -18,7 +18,7 @@ export class GameTimer {
 			this.tickCount++;
 
 			this.timedActions.forEach(timedAction => {
-				if (timedAction.time >= 0) {
+				if (timedAction.time > 0) {
 					try {
 						timedAction.action();
 						timedAction.time -= 1;

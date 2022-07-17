@@ -57,15 +57,21 @@ export class Round {
 		// 	gPlayer.giveGold(GamePlayer.STARTING_GOLD);
 		// })
 
-		this.startModeSelection();
+		this.startModeSelection(20);
 	}
 
-	private startModeSelection() {
+	private startModeSelection(duration: number) {
+		GameTimer.getInstance().addTimedAction(duration, () => {
+			print(`mode duration: ${duration}`);
+			duration--;
 
-		this.startRaceSelection();
+			if (duration == 0) {
+				this.startRaceSelection(10);
+			}
+		})
 	}
 
-	private startRaceSelection() {
+	private startRaceSelection(duration: number) {
 		let players: HumanPlayer[] = [];
 		GamePlayer.getPlayers().forEach(p => {
 			players.push(p);
@@ -73,14 +79,22 @@ export class Round {
 
 		ShuffleArray(players);
 
-		//Place Castles
 		//Place merc camps if allowed
-		this.startRound();
+		GameTimer.getInstance().addTimedAction(duration, () => {
+			print(`race duration: ${duration}`);
+			duration--;
+
+			if (duration == 0) {
+				this.startRound();
+			}
+		})
+
+		
 		//Place race buildings
 	}
 
 	private startRound() {
-
+		print("start round")
 	}
 
 	public getData(key?: number): RoundData {
